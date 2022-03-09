@@ -1,20 +1,12 @@
-package com.luciana.desafio.controller;
+package com.luciana.desafio.beer.controller;
 
 import com.luciana.desafio.beer.dto.BeerDTO;
+import com.luciana.desafio.beer.dto.QuantityDTO;
 import com.luciana.desafio.beer.exception.BeerAlreadyRegisteredException;
 import com.luciana.desafio.beer.exception.BeerNotFoundException;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiResponse;
-import io.swagger.annotations.ApiResponses;
-import com.luciana.desafio.dto.BeerDTO;
-import com.luciana.desafio.dto.QuantityDTO;
-import com.luciana.desafio.exception.BeerAlreadyRegisteredException;
-import com.luciana.desafio.exception.BeerNotFoundException;
-import com.luciana.desafio.exception.BeerStockExceededException;
-import com.luciana.desafio.web.bind.annotation.PathVariable;
-import com.luciana.desafio.web.bind.annotation.RequestBody;
+import com.luciana.desafio.beer.exception.BeerStockExceededException;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import javax.validation.Valid;
 import java.util.List;
