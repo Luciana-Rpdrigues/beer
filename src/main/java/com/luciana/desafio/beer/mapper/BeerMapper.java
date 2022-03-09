@@ -1,7 +1,6 @@
 package com.luciana.desafio.beer.mapper;
 
 import com.luciana.desafio.beer.dto.BeerDTO;
-import com.luciana.desafio.beer.entity.Beer;
 import pcom.luciana.desafio.beer.entity.Beer;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
