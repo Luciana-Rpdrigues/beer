@@ -14,7 +14,7 @@
 	<name>beer</name>
 	<description>Initial  Project</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>14</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
