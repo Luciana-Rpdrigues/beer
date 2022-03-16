@@ -5,6 +5,10 @@ import com.luciana.desafio.beer.dto.QuantityDTO;
 import com.luciana.desafio.beer.exception.BeerAlreadyRegisteredException;
 import com.luciana.desafio.beer.exception.BeerNotFoundException;
 import com.luciana.desafio.beer.exception.BeerStockExceededException;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 
