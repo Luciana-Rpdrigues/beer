@@ -15,7 +15,7 @@ import static springfox.documentation.builders.RequestHandlerSelectors.*;
 
 @Configuration
 @EnableSwagger2
-public class SwaggerConfig {
+class SwaggerConfig {
 
     private static final String BASE_PACKAGE = "one.digitalinnovation.beerstock.controller";
     private static final String API_TITLE = "Beer Stock API";
